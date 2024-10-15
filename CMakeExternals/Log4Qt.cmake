@@ -36,7 +36,7 @@ if(NOT DEFINED Log4Qt_DIR)
     set(location_args GIT_REPOSITORY ${${proj}_GIT_REPOSITORY}
                       GIT_TAG ${revision_tag})
   else()
-    set(location_args GIT_REPOSITORY "https://github.com/MEONMedical/Log4Qt.git"
+    set(location_args GIT_REPOSITORY "git@github.com:MEONMedical/Log4Qt.git"
                       GIT_TAG ${revision_tag})
   endif()
 

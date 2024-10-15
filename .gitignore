@@ -12,3 +12,10 @@ CMakeFiles/cmake.check_cache
 
 # ignore ctags file
 tags
+
+# build
+build/
+
+# conda
+.conda/
+conda/environment.yml
